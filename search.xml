@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>In 2018</title>
+      <link href="2018/12/20/In-2018/"/>
+      <url>2018/12/20/In-2018/</url>
+      
+        <content type="html"><![CDATA[<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6aFdEhEZQjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>视频搬运自 <a href="https://www.youtube.com/">YouTube</a></p><br><p>“However bad life may seem, there is always something you can do, and succeed at. While there’s life, there is hope.” –Stephen Hawking</p><br>]]></content>
+      
+      
+      <categories>
+          
+          <category> google </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> year </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Machine Learning Notes &amp; Summary _1 Introduction</title>
+      <link href="2018/11/18/Machine-Learning-Notes-Summary-1/"/>
+      <url>2018/11/18/Machine-Learning-Notes-Summary-1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><img src="/.io//python-nnp.png" alt="PYTHON-NNP"></p><p>大概从两个多月前开始，从工作中的师父那里看了一本<strong>《Python神经网络编程》</strong>的书，书中讲到了机器是怎么通过像人类神经那样的传输判断方式进行处理的。于是，作者就主要举了一个识别手写输入数字的例子。</p><p>其实最令我吃惊地是原来大学中学习的各种理论知识是真的可以运用上的。。。</p><p>首先便是<strong>线性代数</strong>，矩阵的概念（矩阵的乘法，转置等）都能够运用在神经网络的输入层和输入层到隐藏层之间的权重关系，隐藏层和隐藏层到输出层之间的权重关系等。只需使用一个矩阵于转置矩阵的相乘便可以同时输出同一层中每一个神经元节点的值。</p><p>可能有的人会认为这非常简单，我看完那一章节介绍的时候也觉得不难，但是我的惊讶在于：从来没有想到过矩阵还可以这么运用！</p><p>之后，我便开始准备从<strong>机器学习</strong>开始学习。人工智能的领域非常广泛，这里就引用网上的一张图片吧：</p><p><img src="/.io//ai-relationship.jpg" alt="AI-RELATIONSHIP"></p><br><p>可以看出，<strong>AI</strong>的领域最大，包含的内容也就最广泛。相比AI，进一步便是<strong>Machine Learning机器学习</strong>。再深层的便是<strong>Deep Learning深度学习</strong>等。</p><p>如果你问我，学习这些有什么用，我只能回答 <strong>无可奉告！我啊，还需要提高自己的知识水平！</strong>就像在学校里学着数学，我问老师：学好数学只是为了将来买菜的时候不会算错钱被别人坑吗？</p><p>之前一段时间，停下了机器学习的学习，搭建了这个博客，想要在以后的学习中，总结自己的笔记，然后通过自己的语言表现出来。这也是希望自己不要因为没有什么非常明确的目标而放弃学习，可能目标会在学习中越来越明显吧。</p><br><hr><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p>机器学习分为两大概念：有监督学习，无监督学习。</p><blockquote><p><strong>有监督学习</strong>：根据经过标签分类的训练数据，训练出能够分类现实内容的模型。</p><p><strong>无监督学习</strong>：根据没有经过标签分类的数据，让模型根据数据的不同特征自己进行分类。</p></blockquote><p>何谓机器学习，我的理解就是两个字，<strong>基础</strong>。是学好任何人工智能领域的必经之路。机器学习，包括<strong>Linear Regression（线性回归）</strong>，<strong>Logstic Regression（逻辑回归）</strong>，如果用通俗点的话来理解，就是通过不同的算法和训练数据，能够使模型做出较为合理准确的判断和预测。并非像普通的应用判断一样使用 <strong><code>if</code></strong> <strong><code>else</code></strong> 语句。</p><hr><p>目前，我正在 <a href="https://www.coursera.org/">Coursera</a> 看<strong>Andrew Ng</strong> 的Machine Learning视频。</p><blockquote><p>从<strong>Linear Regression（线性回归）</strong>开始，了解<strong>Cost Function（损失函数）</strong>，<strong>Gradient Descent（梯度下降）</strong>。</p><p>再到<strong>Logistic Regression（逻辑回归）</strong>中的<strong>Sigmoid（激活函数）</strong>。</p><p>然后理解<strong>神经网络</strong>和<strong>SVM（Support Vector Machine）支持向量机</strong>。</p><p>最后能够实现一个<strong>OCR（Optical Character Recognition）文字识别模型</strong>。</p></blockquote><p>学完这些，可能机器学习也就算是入门了吧。</p><br><hr><h2 id="CS229"><a href="#CS229" class="headerlink" title="CS229"></a>CS229</h2><p>这个也是<strong>Andrew Ng</strong>老师的课程，算是进阶版。更加偏向于算法的讲解。我会在学习完<strong>Coursera</strong>上的<strong>Machine Learning</strong>后开始学习。</p><br><hr><h2 id="数学之美"><a href="#数学之美" class="headerlink" title="数学之美"></a>数学之美</h2><p><img src="/.io//Beauty-of-Mathematics.png" alt="数学之美"></p><p>这本书我是利用上下班坐地铁的时间看的，作者吴军是原Google的搜索反作弊领域的开创者。书中有大量的讲到自然语言的处理方式，这同样也是在人工智能中的一个领域，<strong>NLP（Natural Language Processing）自然语言处理</strong>。</p><p>这本书非常适合我这样的人（目前还没有什么算法能力，对数学，线性代数，概率论及统计学没有什么学习研究）阅读，通过文字和举例子来解释不同的分类算法，语言处理，搜索排序等模型。还有流行，经典的算法模型。</p><p>除了<strong>NLP</strong>，吴军老师还会教给读者各种问题的解决办法和解决思路。</p><p>所以，是一本不错的拓展思维和兴趣入门之书。</p><h2 id="学习之路"><a href="#学习之路" class="headerlink" title="学习之路"></a>学习之路</h2><p>我一直告诉自己，搭建完博客，就可以开始总结和继续学习了。。。</p><p>以上，也是我需要慢慢去走的路吧。这篇博客也算是开坑了。。。</p><p>在这里，我想我不得不感谢我的师父。他不仅是我工作上的师父，也算是我这条学习之路的启蒙老师吧。</p><br><hr><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>课程：</p><p><a href="https://www.coursera.org/learn/machine-learning">Coursera - Machine Learning by Stanford University</a></p><p><a href="https://see.stanford.edu/Course/CS229">CS229 - Machine Learning</a></p><p>书籍：</p><p>《数学之美（第二版）》 吴军 著</p><p>《Python神经网络编程》 [英] 塔里克·拉希德（Tariq Rashid） 著</p><br><hr><p>感谢你的阅读，如果笔者有什么写错的或者不足之处，烦请读者指出。</p><p>以上</p><p><img src="/.io//THOUSANDS_OF_YEARS_LATER.jpg" alt="THOUSANDS OF YEARS LATER"></p><p><img src="/.io//tobecontinuedjojo.png" alt="TO BE CONTINUED..."></p><br>]]></content>
+      
+      
+      <categories>
+          
+          <category> technology </category>
+          
+          <category> machinelearning </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MachineLearning </tag>
+            
+            <tag> notes </tag>
+            
+            <tag> summary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AWS+GIT+HEXO搭建博客</title>
+      <link href="2018/11/12/AWS-GIT-HEXO-BUILD-BLOG/"/>
+      <url>2018/11/12/AWS-GIT-HEXO-BUILD-BLOG/</url>
+      
+        <content type="html"><![CDATA[<h2 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h2><h3 id="要素"><a href="#要素" class="headerlink" title="要素"></a>要素</h3><p><a href="https://aws.amazon.com/">AWS：Amazon Web Services 亚马逊云</a></p><p><a href="https://git-scm.com/">Git：版本控制系统</a></p><p><a href="https://hexo.io/">Hexo：支持Markdown的博客框架</a></p><h3 id="实现流程"><a href="#实现流程" class="headerlink" title="实现流程"></a>实现流程</h3><p>首先，需要在<strong>AWS</strong>上申请一台服务器（EC2），在服务器上搭建<strong>Git仓库</strong>，创建<strong>Hook</strong>（钩子）并配置将<strong>Git仓库</strong>里的内容部署到制定路径下。</p><p>然后，在服务器上安装**<a href="http://nginx.org/">Nginx</a><strong>（HTTP和反向代理服务器），通过配置监听</strong>80端口**，将访问路径转发到指定目录下（Hook所部署配置的路径）。</p><p>接着，在本地用**<a href="https://nodejs.org/en/">node</a><strong>的</strong>npm<strong>（包管理工具）命令安装</strong>Hexo<strong>，并配置其发布方式（</strong>Git<strong>）及发布路径（</strong>AWS**）。</p><p>最后，在本地完成博客编写，通过<strong>hexo deploy</strong>命令部署到<strong>AWS</strong>上。</p><br><hr><h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><h3 id="服务端"><a href="#服务端" class="headerlink" title="服务端"></a>服务端</h3><h4 id="创建连接服务器"><a href="#创建连接服务器" class="headerlink" title="创建连接服务器"></a>创建连接服务器</h4><p>如果你是第一次使用AWS服务器，只需注册AWS账号，并绑定<strong>支持外币的信用卡</strong>，就可以获得最普通的服务器（单核，1G内存，8G容量）一年的免费使用权（AWS会冻结你信用卡里的1美元一个月，之后会自动解除冻结）。（怎么搞的自己像在做广告一样。。。）</p><p>我选择的是<strong>Ubuntu16.04</strong>的<strong>EC2</strong>，创建了一个<strong>Instance</strong>，在创建时你将会创建并获得一个**.pem私钥<strong>，只需用</strong><a href="https://putty.org/">PuTTY</a><strong>将私钥</strong>.pem文件<strong>生成为</strong>.ppk文件<strong>之后，用</strong>SSH<strong>方式，通过服务器的</strong>公网IP（Public IP）<strong>和之前生成的</strong>.ppk私钥<strong>就可以连上自己的服务器了</strong>（用户名默认为ubuntu）**。</p><p>为了安全起见，你可以使用 <strong><code>sudo adduser 用户名</code></strong> 来创建一个<strong>新用户</strong>，这样的话，当你赋予此用户某些权限，他将可以用于<strong>Git</strong>上传部署等，就不需要使用权限更大的<strong>ubuntu</strong>或者<strong>root</strong>了。一会儿也会详细再说到。</p><hr><h4 id="创建用户"><a href="#创建用户" class="headerlink" title="创建用户"></a>创建用户</h4><pre>sudo adduser git</pre><p>这样就会在 <strong><code>/home/</code></strong> 的目录下生成一个以<strong>git</strong>命名的文件夹。（创建过程中，会让你输入名称密码等，全部直接按回车即可。）</p><hr><h4 id="创建Git仓库"><a href="#创建Git仓库" class="headerlink" title="创建Git仓库"></a>创建Git仓库</h4><p>首先<strong>安装Git</strong>：</p><pre>sudo apt-get updatesudo apt-get install git</pre><p>然后<strong>配置Git</strong>用户名和账号：</p><pre>git config --global user.name "yourname"git config --global user.email "youremail"</pre><p>再<strong>更新Git</strong>到最新稳定版：</p><pre>sudo add-apt-repository ppa:git-core/ppasudo apt-get updatesudo apt-get install git</pre><p>完成之后可以通过 <strong><code>git --version</code></strong> 来<strong>查看Git</strong>当前安装的版本。</p><p>接下来就可以通过 <strong><code>git</code></strong> 命令来创建<strong>git仓库</strong>和<strong>钩子Hook</strong>了。</p><hr><p>选择服务器的一个路径来作为<strong>git仓库Repository</strong>，存放通过git上传部署的发布内容，可以根据自己的喜好来建立<strong>repo</strong>，建完之后修改文件夹的<strong>读写权限</strong>（<strong>775</strong>的话，其他的用户是没有写的权限的）：</p><pre>cd /usr/local/sudo mkdir hexo/repo/chmod 775 -R /usr/local/hexo/repo/cd /usr/local/hexo/reposudo git init --bare blog.git</pre><p>这样就生成了一个<strong>空的仓库</strong>，上传的文件就会存放在里面。</p><hr><p>现在，我们需要在仓库中配置<strong>钩子Hook</strong>，其作用就是每一次在仓库接收到文件的时候，就会将文件部署更新到规定的路径下，这样我们就不回去访问或者修改repo中的文件了，而是访问部署的那个路径下的文件内容：</p><pre>cd /usr/local/hexo/repo/blog.git/hooksvi post-receive</pre><p>然后在这个文件中输入以下内容：</p><pre>#!/bin/shgit --work-tree=/usr/local/hexo/bmjline --git-dir=/var/local/hexo/repo/blog.git checkout -f</pre><p>其中 <strong><code>/usr/local/hexo/bmjline</code></strong> 是部署的路径，也就是正真的外部去访问的路径。</p><p>貌似这个路径下还没有建这个文件夹，现在我们就去建一个：</p><pre>cd /usr/local/hexo/sudo mkdir bmjline</pre><hr><h4 id="安装Nginx"><a href="#安装Nginx" class="headerlink" title="安装Nginx"></a>安装Nginx</h4><pre>sudo apt-get install software-properties-commonsudo add-apt-repository ppa:nginx/stable sudo apt-get updatesudo apt-get install nginx</pre><p>按照别人写的方式，这样就能安装最新稳定版的<strong>Nginx</strong>了。</p><p>接下来就是配置<strong>nginx</strong>的<strong>config</strong>文件了，在我自己配置的时候发现，Linux下的Nginx目录结构和**.conf**文件内容和Windows上的有些区别。</p><p>当我打开 <strong><code>/etc/nginx</code></strong> 目录下的<strong>nginx.conf</strong>文件时，里面并没有可以配置<strong>server</strong>的地方，后来研究了一下发现，配置<strong>server</strong>的地方在 <strong><code>/etc/nginx/sites-enabled</code></strong> 目录下的<strong>default</strong>文件。</p><p>于是我就修改了该文件的一些内容：</p><pre>vi /etc/nginx/sites-enabled/default</pre><p>将里面的server部分做如下修改：</p><pre>server {    listen 80 default_server;    listen [::]:80 default_server;    root /usr/local/hexo/bmjline;    index index.html index.htm index.nginx-debian.html;    server_name www.bmjline.com;}</pre><p>解释一下这些内容， <strong><code>listen 80 default_server;</code></strong> 和 <strong><code>listen [::]:80 default_server;</code></strong> 就是让<strong>nginx</strong>监听服务器的<strong>80端口</strong>，当外部有请求时，nginx会将<strong>root</strong>目录，也就是 <strong><code>/usr/local/hexo/bmjline</code></strong> 返回，返回的内容（<strong>index</strong>）指定的是该目录下的 <strong>index.html</strong> 或者 <strong>index.htm</strong> 或者 <strong>index.nginx-debian.html</strong> 。最后，我的服务器的名称是<strong><a href="http://www.bmjline.com/">www.bmjline.com</a></strong>。</p><hr><h4 id="修改用户权限"><a href="#修改用户权限" class="headerlink" title="修改用户权限"></a>修改用户权限</h4><p>我想只让某个用户有操作blog的权限，这样做感觉会更加安全，那么我们就用到了之前创建好的<strong>git用户</strong>。</p><p>首先将之前为了blog所创建的文件夹和git仓库的拥有者做一下修改（目前因为是用sudo创建的，所有拥有者为root）：</p><pre>cd /usr/local/hexo/repo/sudo chown -R git:git blog.gitcd /usr/local/hexo/sudo chown -R git:git reposudo chown -R git:git bmjlinecd /usr/local/sudo chown -R git:git hexo</pre><p>创建git这个用户的目的在于能够使用它来进行git和部署，但是我们不希望它能够像ubuntu那样通过<strong>SSH</strong>登录操作。那么我们组要进行以下修改：</p><pre>vi /etc/passwd</pre><p>我们找到<strong>git</strong>用户，一般会在最后一行：</p><pre>git:x:1001:1001:,,,:/home/git:/bin/bash</pre><p>将其修改为：</p><pre>git:x:1001:1001:,,,:/home/git:/usr/bin/git-shell</pre><hr><h4 id="生成-amp-验证keys"><a href="#生成-amp-验证keys" class="headerlink" title="生成 &amp; 验证keys"></a>生成 &amp; 验证keys</h4><p><em>这一步可以放在**</em>搭建完本地环境后，发布之前**<em>进行操作。</em></p><p>在<strong>Windows</strong>下用<strong>cmd</strong>运行：</p><pre>ssh-keygen</pre><p>Windows会问你是否使用默认路径，直接回车即可。输入邮箱之后完成。当生成完<strong>key</strong>之后你可以按照<strong>cmd</strong>上显示的路径寻找到默认生成路径。一般默认路径为 <strong><code>C:\Users\用户名\.ssh\</code></strong> 打开复制目录下文件 <strong><code>id_rsa.pub</code></strong> 的内容。</p><p>来到服务器端：</p><pre>cd /home/git/sudo mkdir .ssh/vi /home/bmj/.ssh/authorized_keys</pre><p>将刚才复制的<strong>公钥</strong>黏贴进去。保存退出。</p><p>修改一下 <strong><code>.ssh</code></strong> 和 <strong><code>authorized_keys</code></strong> 文件的权限：</p><pre>cd /home/git/chmod 700 .sshchmod 600 .ssh/authorized_keys</pre><hr><p>在<strong>Windows</strong>本地环境，打开<strong>cmd</strong>测试是否可以通过验证：</p><pre>ssh -T git@www.bmjline.com</pre><p>当没有报错，并且最后显示<strong>closed</strong>时，完成！</p><hr><h3 id="本地环境"><a href="#本地环境" class="headerlink" title="本地环境"></a>本地环境</h3><h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>本地环境我用的操作系统是<strong>Windows</strong></p><p><a href="https://nodejs.org/en/download/">Node.js Download</a></p><p>安装完成后，可以到<strong>安装路径根目录下</strong>输入：</p><pre>node -v</pre><p>当显示版本号时，说明安装成功，接下来就可以使用 <strong><code>npm</code></strong> 命令来安装其他的内容了。</p><hr><h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装<a href="https://hexo.io/">Hexo</a></h4><p>首先需要<strong>全局安装Hexo</strong>，直接<strong>cmd</strong>运行：</p><pre>npm install -g hexo-cli</pre><p>在自己的workspace目录里新建一个文件夹，我们的Hexo框架就安装在这个文件夹里。</p><p>来到这个文件夹的<strong>根目录</strong>下，运行：</p><pre>hexo init</pre><p>安装完成之后，还需要在<strong>根目录下</strong>安装<strong>两个插件</strong>，分别用来做<strong>git部署</strong>和<strong>起本地服务</strong>的：</p><pre>npm install hexo-deployer-git --savenpm install hexo-server --save</pre><hr><h4 id="创建博客运行本地环境"><a href="#创建博客运行本地环境" class="headerlink" title="创建博客运行本地环境"></a>创建博客运行本地环境</h4><p>创建自己的<strong>第一篇博客</strong>：</p><pre>hexo new "My First Blog"</pre><p>当语句执行成功，便会在 <strong><code>source/_post/</code></strong> 路径下生成 <strong><code>My-First-Blog.md</code></strong> 的文件，你可以打开它来<strong>编辑</strong>你的第一篇博客。</p><p>当需要<strong>起本地环境</strong>时，直接运行以下<strong>三条命令</strong>，便可以同时达到<strong>清缓存，编译，运行</strong>三个操作：</p><pre>hexo cleanhexo generatorhexo server</pre><p>打开浏览器访问 <strong><a href="http://localhost:4000/">http://localhost:4000</a></strong></p><hr><h4 id="Hexo配置"><a href="#Hexo配置" class="headerlink" title="Hexo配置"></a>Hexo配置</h4><p>打开<strong>blog根目录</strong>下的 <strong><code>_config.yml</code></strong> 进行修改添加：</p><pre>deploy:  type: git  repo: git@www.bmjline.com:/usr/local/hexo/repo/blog.git  branch: master</pre><p>里面有很多的<strong>配置</strong>可以根据自己的实际情况进行<strong>修改和添加</strong>，现在为了发布我们只修改上面这块内容。</p><p>应该很清楚能看明白，我们需要通过<strong>git</strong>将博客<strong>push</strong>到服务器的<strong>git仓库</strong>中，用户为<strong>git用户</strong>。</p><br><hr><h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><p><em>在这之前别忘了生成公钥并验证哦！</em></p><p>到目前为止，<strong>服务端</strong>和<strong>本地环境</strong>都已经搭建完成，可以准备发布了。</p><p><strong>本地环境</strong>博客<strong>根目录</strong>打开<strong>cmd</strong>运行：</p><pre>hexo deploy</pre><p><del>全绿就对了！</del></p><p>现在你可以通过<strong>服务器的公网IP地址</strong>访问看看，看到你的博客了吗？XD</p><br><hr><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>个人认为，这篇才能算得上是<strong>真正意义上的第一篇博客</strong>吧！XD</p><p>写完了这篇博客，也算是又回顾了一遍自己搭建博客的过程，也对<strong>Markdown</strong>有了一定的了解。原来写一篇博客会这么累，要这么久。。。XD</p><p>这里只是讲到了博客的搭建，还有更多定制化的内容，比如修改主题等。你大可以访问**<a href="https://hexo.io/">Hexo的官网</a><strong>进行</strong>探索**。</p><p>你也可以购买<strong>自己的域名</strong>，像我这样，并用<strong>服务器的公网IP</strong>对域名进行<strong>解析</strong>，你就可以通过域名访问你的博客了！</p><p>搭建的过程我也是根据<strong>别人的博客</strong>一点点<strong>摸索</strong>才完成的，完成之后才慢慢理解一些工具的用途和意义，这也告诉了我，<strong>实践是多么重要</strong>，尤其是对于刚工作一年多的我来说，我很高兴自己能够写下<strong>第一篇</strong>不是很短的博客！</p><p><em>感谢你能够看到有这个网站，有这篇博客。如果发现文中有写的不正确的地方或者难以理解的地方都没关系。多多研究，完成它的方法会有很多！</em><br><br></p><hr><p>谢谢你愿意看到最后，我们下一篇博客见。。。</p><p>以上</p><p><img src="/.io//ONE_ETERNITY_LATER.jpg" alt="ONE ETERNITY LATER"></p><p><img src="/.io//tobecontinuedjojo.png" alt="TO BE CONTINUED..."><br><br></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> technology </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> intro </tag>
+            
+            <tag> aws </tag>
+            
+            <tag> git </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>My First Post</title>
+      <link href="2018/11/08/My-First-Post/"/>
+      <url>2018/11/08/My-First-Post/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第一篇博客"><a href="#这是我的第一篇博客" class="headerlink" title="这是我的第一篇博客"></a>这是我的第一篇博客</h2><h3 id="感谢你能看到"><a href="#感谢你能看到" class="headerlink" title="感谢你能看到"></a>感谢你能看到</h3><p>仅此献给我即将拥有和即将失去的一切。。。<br><br></p><h3 id="NEXT"><a href="#NEXT" class="headerlink" title="NEXT"></a>NEXT</h3><p>接下来，我将用博客的方式，记录下我的学习路程。</p><p>先罗列几个想要写的博客：</p><ul><li>介绍本博客搭建流程</li><li>机器学习入门笔记</li><li>在学习过程中遇到的问题和心得体会</li><li>分享生活</li><li>…<br></li></ul><p>在未来的时间里，我还会不断地完善自己的博客，与你一起分享生活和学习。。。<br><br></p><h3 id="就是这样"><a href="#就是这样" class="headerlink" title="就是这样"></a>就是这样</h3><hr><p>以上</p><p><img src="/.io//2000_YEARS_LATER.jpg" alt="2000 YEARS LATER"></p><p><img src="/.io//tobecontinuedjojo.png" alt="TO BE CONTINUED..."><br><br></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> intro </tag>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2018/11/05/hello-world/"/>
+      <url>2018/11/05/hello-world/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Welcome-to-My-Blog"><a href="#Welcome-to-My-Blog" class="headerlink" title="Welcome to My Blog!"></a>Welcome to My Blog!</h2><p>这是一篇搭建博客时自动生成的文章，我并不打算删除它，因为它见证了<strong>BMJLINE</strong>的启动！</p><p>**<a href="www.bmjline.com">BMJLINE</a>**的搭建离不开<a href="https://hexo.io/">Hexo</a></p><p>之所以我会选择Hexo来搭建而不是自己写一个博客，主要是因为我更想把重点放在写博客上，而并非搭建博客上。</p><p>我会用它来记录自己的学习过程。</p><p>以下是当时自动生成的内容，当需要创建新的博客并部署时，可以来参照下面的命令：</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> helloworld </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

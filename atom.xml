@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>BMJLINE</title>
+  
+  <subtitle>「今でもあなたは私の光」</subtitle>
+  <link href="https://bmjlearntohelloworld.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://bmjlearntohelloworld.github.io/"/>
+  <updated>2021-03-09T16:12:19.955Z</updated>
+  <id>https://bmjlearntohelloworld.github.io/</id>
+  
+  <author>
+    <name>BMJ</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>In 2018</title>
+    <link href="https://bmjlearntohelloworld.github.io/2018/12/20/In-2018/"/>
+    <id>https://bmjlearntohelloworld.github.io/2018/12/20/In-2018/</id>
+    <published>2018-12-20T15:44:28.000Z</published>
+    <updated>2021-03-09T16:12:19.955Z</updated>
+    
+    
+    <summary type="html">However bad life may seem, there is always something you can do, and succeed at. While there&#39;s life, there is hope. --Stephen Hawking</summary>
+    
+    
+    
+    <category term="google" scheme="https://bmjlearntohelloworld.github.io/categories/google/"/>
+    
+    
+    <category term="year" scheme="https://bmjlearntohelloworld.github.io/tags/year/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Machine Learning Notes &amp; Summary _1 Introduction</title>
+    <link href="https://bmjlearntohelloworld.github.io/2018/11/18/Machine-Learning-Notes-Summary-1/"/>
+    <id>https://bmjlearntohelloworld.github.io/2018/11/18/Machine-Learning-Notes-Summary-1/</id>
+    <published>2018-11-18T11:09:29.000Z</published>
+    <updated>2021-03-09T16:12:19.955Z</updated>
+    
+    
+    <summary type="html">这本书非常适合我这样的人（目前还没有什么算法能力，对数学，线性代数，概率论及统计学没有什么学习研究）阅读，通过文字和举例子来解释不同的分类算法，语言处理，搜索排序等模型。还有流行，经典的算法模型。</summary>
+    
+    
+    
+    <category term="technology" scheme="https://bmjlearntohelloworld.github.io/categories/technology/"/>
+    
+    <category term="machinelearning" scheme="https://bmjlearntohelloworld.github.io/categories/technology/machinelearning/"/>
+    
+    
+    <category term="MachineLearning" scheme="https://bmjlearntohelloworld.github.io/tags/MachineLearning/"/>
+    
+    <category term="notes" scheme="https://bmjlearntohelloworld.github.io/tags/notes/"/>
+    
+    <category term="summary" scheme="https://bmjlearntohelloworld.github.io/tags/summary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AWS+GIT+HEXO搭建博客</title>
+    <link href="https://bmjlearntohelloworld.github.io/2018/11/12/AWS-GIT-HEXO-BUILD-BLOG/"/>
+    <id>https://bmjlearntohelloworld.github.io/2018/11/12/AWS-GIT-HEXO-BUILD-BLOG/</id>
+    <published>2018-11-12T15:31:10.000Z</published>
+    <updated>2021-03-09T16:12:19.954Z</updated>
+    
+    
+    <summary type="html">个人认为，这篇才能算得上是真正意义上的第一篇博客吧！XD 写完了这篇博客，也算是又回顾了一遍自己搭建博客的过程，也对Markdown**有了一定的了解。原来写一篇博客会这么累，要这么久。。。XD</summary>
+    
+    
+    
+    <category term="technology" scheme="https://bmjlearntohelloworld.github.io/categories/technology/"/>
+    
+    
+    <category term="intro" scheme="https://bmjlearntohelloworld.github.io/tags/intro/"/>
+    
+    <category term="aws" scheme="https://bmjlearntohelloworld.github.io/tags/aws/"/>
+    
+    <category term="git" scheme="https://bmjlearntohelloworld.github.io/tags/git/"/>
+    
+    <category term="hexo" scheme="https://bmjlearntohelloworld.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My First Post</title>
+    <link href="https://bmjlearntohelloworld.github.io/2018/11/08/My-First-Post/"/>
+    <id>https://bmjlearntohelloworld.github.io/2018/11/08/My-First-Post/</id>
+    <published>2018-11-08T15:06:57.000Z</published>
+    <updated>2021-03-09T16:12:19.960Z</updated>
+    
+    
+    <summary type="html">在未来的时间里，我还会不断地完善自己的博客，与你一起分享生活和学习。。。</summary>
+    
+    
+    
+    
+    <category term="intro" scheme="https://bmjlearntohelloworld.github.io/tags/intro/"/>
+    
+    <category term="test" scheme="https://bmjlearntohelloworld.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://bmjlearntohelloworld.github.io/2018/11/05/hello-world/"/>
+    <id>https://bmjlearntohelloworld.github.io/2018/11/05/hello-world/</id>
+    <published>2018-11-04T16:00:00.000Z</published>
+    <updated>2021-03-09T16:12:19.962Z</updated>
+    
+    
+    <summary type="html">这是一篇搭建博客时自动生成的文章，我并不打算删除它，因为它见证了BMJLINE的启动！</summary>
+    
+    
+    
+    
+    <category term="helloworld" scheme="https://bmjlearntohelloworld.github.io/tags/helloworld/"/>
+    
+  </entry>
+  
+</feed>
